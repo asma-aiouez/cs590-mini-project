@@ -1,11 +1,17 @@
 # cs590-mini-project
 
-### use "docker-compose up" command to run it.
+
 
 In this project, we are asked to implement a Restful service tha allows an admin a batch job. Given a CSV file which has three columns: First , last , GPA , AGE. We convert the AGE into a date format (yyyy-01-01). 
 
 ### database runs locally on port 3305 / MYSQL
 ### application runs on port 8086
+### use "docker-compose up" command to run it.
+
+We created two containers named: mysql-standalone and app and in oder to view the content of the database, we set the following
+
+spring.datasource.url=jdbc:mysql://mysql-standalone/cs590-sa
+
 
 Postman is used to test the endpoints. Following is a list of the use cases of the program with examples:
 
