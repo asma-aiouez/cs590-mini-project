@@ -12,6 +12,7 @@ Postman is used to test the endpoints. Following is a list of the use cases of t
 We have a signup page, to save a user with Admin role:
 
 POST: http://localhost:8086/users
+
 {
     "username":"foo",
     "password":"usfaa444",
